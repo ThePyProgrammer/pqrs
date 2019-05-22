@@ -1,0 +1,39 @@
+pythonshellreact(ans=False, lib=s, func=f): takes in a value ans if necessary and runs multi-line (that has to be shortened) code. It also uses s and f based on the template.
+const_ping(obj, format): takes in the obj and the certain format (either 'num' format or 'str' format) and stores it in a shell list constlst.
+another way of doing const_ping(obj, format) is constlst.append(obj{given the format})
+
+eg.
+
+Welcome To Python Shell React!
+This is a program I created to aid you in writing Python 3 programs.
+I hope you'll enjoy this!
+>>> ans
+66
+>>> ans + '66'
+6666
+>>> ans.count('prevans')
+0
+>>> val = prevans
+>>> val.count('66')
+2
+>>> ans + prevans
+2
+>>> ans = prevans
+>>> ans = 2
+>>> prevans = 2
+>>> ans == prevans
+True
+>>> from math import pi
+>>> ans + pi
+4.141592653589793
+>>> const_ping(ans, 'num')
+this constant has been pinged
+It is uploadable by typing constlst[0]
+>>> const_ping(ans, 'str')
+this constant has been pinged
+It is uploadable by typing constlst[1]
+>>> str(constlst[0]).replace(constlst[1], '')
+
+>>> if not(bool(len(ans))): print(pi)
+3.141592653589793
+>>> ...

@@ -1,0 +1,26 @@
+1. Guessing Game
+
+command: guessinggame(maxn=100)
+function: asks for an input of a number in between 1 and maxn (inclusive of both).
+
+
+2. Rock Paper Scissors Lizard Spock
+
+command: rpsls(maxpts=10)
+function: runs a game where the user inputs his character and the computer randomly chooses one. They are checked and points are assigned. The first person to get maxpts wins.
+
+3. Rock Paper Scissors
+
+command: rps(maxpts=10)
+function: runs a game where the user inputs his character and the computer randomly chooses one. They are checked and points are assigned. The first person to get maxpts wins.
+
+4. Rock Paper Scissors Lizard Spock Spider-Man Batman Wizard Glock
+
+command: rpslssbwg(maxpts=10)
+function: runs a game where the user inputs his character and the computer randomly chooses one. They are checked and points are assigned. The first person to get maxpts wins.
+
+5. Obsession!
+
+command: obsession()
+function: a two-player game, obsession plays with the first person to move all his rings away from their starting position using randomly assigned dice numbers.
+

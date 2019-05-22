@@ -1,0 +1,9 @@
+1. Graphic Calculator
+
+command = graphhiccalc(funcstuple=(lambda x: x**2), start=-10, end=10, step=1)
+function => runs a graph with the graphs of all the functions in the funcstuple
+
+2. DataPlot
+
+command = data(*args)
+function = takes in a number of filenames and for each of them, plots the data.

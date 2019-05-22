@@ -1,0 +1,48 @@
+actual_mun(*args): takes in the delegates runs a total MUN program.
+
+Eg.
+
+>>> actual_mun('A', 'B', 'C', 'D', 'E', 'F', 'G')
+A : P&V
+B : P&V
+C : A
+D : P&V
+E : P
+F : P&V
+G : P&V
+With 5 people present and voting, a procedural vote will be 3 and a substantiative vote will be 3
+
+Please add people for the General Speaker's list to commence
+Add to GSL: A
+Add to GSL: B
+Add to GSL: 
+
+The GSL currently has the following people:
+________________________________
+A
+B
+________________________________
+
+Input func: time
+Change time: 60
+Change time: 
+
+The GSL will now have a time limit of 60 seconds.
+
+Input func: 
+
+Are there any motions on the floor?
+Enter Motion: 
+With no motions on the floor, the GSL has been reopened
+
+May the General Speaker's List begin.
+
+A, please come forward for your speech 
+[A gives his/ her speech]
+You have finished. How would you like to yield your time?: To The Chair
+
+Input func: add
+.
+.
+.
+.

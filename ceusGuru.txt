@@ -1,0 +1,152 @@
+learn() --> Takes no positional arguments
+        --> Runs a module-based program
+
+
+
+eg
+
+
+
+
+>>> learn()
+Well do you like this tutorial? Do you like learning here
+Tell me would you like some videos? (Y/N)N
+Oh well...
+
+
+Module List
+To select module enter the module number
++++++++++++++++++++++++++++++++++++++++++++++++
+Module 1: Basic Concepts
+Module 2: Control Structures
+Module 3: Functions and Modules
++++++++++++++++++++++++++++++++++++++++++++++++
+
+What module do you choose? 3
+
+
+Module 3: Functions and Modules
+
+================================================
+Lesson 1: Functions
+Lesson 2: Function Arguments
+Lesson 3: Return from Function
+Lesson 4: Comments and Docstring
+Lesson 5: Functions as Object
+Lesson 6: Modules
+Lesson 7: The Standard Library and pip
+Quiz
+================================================
+
+Enter the lesson number shown to access lesson
+Enter Quiz to access Quiz
+Type back to go back 
+
+What lesson will you choose? 6
+=======================Starting Lesson=========================
+Modules
+
+Modules are pieces of code that other people have written to fulfill common tasks, such as generating random numbers, 
+performing mathematical operations, etc.
+
+The basic way to use a module is to add import module_name at the top of your code, and then using module_name.var 
+to access functions and values with the name var in the module.
+For example, the following example uses the random module to generate random numbers: 
+
+There are three ways to import modules. 
+from module import var as name
+from module import var
+import module
+
+Examples:
+
+from math import sqrt as square_root
+>>>square_root(100)
+10.0
+
+from math import pi
+>>>pi
+3.141592653589793
+
+import random
+
+for i in range(5):
+   value = random.randint(1, 6)
+   print(value)
+
+Output:
+2
+3
+6
+5
+4
+
+Question:
+What is the output of this code?
+import math as m
+print(math.sqrt(25))
+(a) Error
+(b) 5
+(c) 25
+
+>>>b
+Wrong Answer, Try again!
+
+Question:
+What is the output of this code?
+import math as m
+print(math.sqrt(25))
+(a) Error
+(b) 5
+(c) 25
+
+>>>c
+Wrong Answer. Let's read through the lesson again
+
+Modules
+
+Modules are pieces of code that other people have written to fulfill common tasks, such as generating random numbers, 
+performing mathematical operations, etc.
+
+The basic way to use a module is to add import module_name at the top of your code, and then using module_name.var 
+to access functions and values with the name var in the module.
+For example, the following example uses the random module to generate random numbers: 
+
+There are three ways to import modules. 
+from module import var as name
+from module import var
+import module
+
+Examples:
+
+from math import sqrt as square_root
+>>>square_root(100)
+10.0
+
+from math import pi
+>>>pi
+3.141592653589793
+
+import random
+
+for i in range(5):
+   value = random.randint(1, 6)
+   print(value)
+
+Output:
+2
+3
+6
+5
+4
+
+Question:
+What is the output of this code?
+import math as m
+print(math.sqrt(25))
+(a) Error
+(b) 5
+(c) 25
+
+>>>a
+Congrats, You got it right!!!

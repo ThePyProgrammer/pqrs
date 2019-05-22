@@ -1,0 +1,39 @@
+GeoInfo: a class with a plethora of different functions that give you a basic explanation.
+  -  circum(d): circumference of an object of a diameter of d.
+  -  circarea(r): takes in the radius and returns the area of the circle
+
+Quadratics(a): a class that takes in the a in a trinomial expression to solve for a quadratic equation given its various values: (h, k) or (b, c).
+
+Get_primes(maxn): a class that takes an input of <10000000000 and stores a primes within it such that the list has all the primes until the given number.
+
+Sheldon: a class based on the recent Sheldon Conjecture, with many different properties.
+
+NUMTypes(num): a class that takes in num, and finds whether it is a property based number.
+
+baseconv: a class that has a universal base converter and a prominent base converter (bin, oct, dec, hex)
+
+RefractiveIndexi(ai, ar, nr): takes in the angles and the n and uses snell's law to find the value.
+
+Day(d, m, y): takes in a particular date in history or the future to find the day that takes place.
+
+Caesar(strlet, shift=3): takes in a string and a shift and runs it.
+
+vigenere(keystr, strlet): takes in a key and string and runs the vigenere data
+
+urldata(url): gives data about a particular site
+
+strit(lst): takes in a lst and makes it into a string
+
+reverse(x): returns the reverse of an integer.
+
+ispalindrome(x): returns a Boolean value on whether x is a palindrome or not.
+
+flip(I, lst): flips a particular part of the lst based on the index I
+
+dl: a list with the days in a week
+
+alphabet: a list of capital alphabets.
+
+alphstr: a string made of capital alphabets in order.
+
+tempcon_<insert command>(var): based on the command, they convert using the var.
